@@ -22,3 +22,4 @@ Resources:
               - 's3:ObjectCreated:Put'
   Bucket1:
     Type: 'AWS::S3::Bucket'
+ 
