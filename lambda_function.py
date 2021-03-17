@@ -27,7 +27,6 @@ def upload_to_elasticsearch(jsonDocu):
 
 
 def lambda_handler(event, context):
-
         
 
     s3_client = boto3.client('s3')
