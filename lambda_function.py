@@ -37,6 +37,7 @@ def lambda_handler(event, context):
         bucket = record['s3']['bucket']['name']
         key = unquote_plus(record['s3']['object']['key'])
         print("here")
+        print(1)
         
         headobject = s3_client.head_object(
             Bucket=bucket,
